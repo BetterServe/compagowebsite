@@ -138,6 +138,8 @@ ul,ol{margin:0;padding:0}
 .hero{padding:clamp(56px,8vw,104px) 0 clamp(48px,6vw,72px);position:relative}
 .hero h1{font-size:clamp(50px,8.6vw,124px);line-height:1.06;letter-spacing:-.04em;max-width:11em}
 .hero .lede{margin-top:32px;max-width:780px}
+/* the line that says what Compago does: a step up from the other short text */
+.home .hero .lede.hero-sub{font-size:clamp(19px,2vw,23px);line-height:1.5;color:var(--graphite);max-width:760px}
 
 /* ---------- the path (hero flow): three step boxes over a "screen" that plays each step ---------- */
 .flow{margin:clamp(48px,7vw,80px) 0 0;position:relative}
