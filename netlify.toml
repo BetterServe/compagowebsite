@@ -1,0 +1,25 @@
+# Netlify settings for compagogroup.com.
+# Plain HTML with no build step; Netlify publishes this folder as is.
+[build]
+  publish = "."
+
+# Netlify serves /how-we-work from how-we-work.html and uses 404.html for missing pages automatically.
+
+# The README is internal working notes; keep it in the repo but never serve it.
+[[redirects]]
+  from = "/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

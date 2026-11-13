@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Draft favicon: the path. Three nodes on a marigold line, with the dashed renewal return underneath. -->
+  <rect width="64" height="64" rx="8" fill="#1F2328"/>
+  <path d="M50 24 V38 Q50 46 42 46 H22 Q14 46 14 38 V24" fill="none" stroke="#A3AAB5" stroke-width="2.2" stroke-dasharray="3.5 3.5"/>
+  <path d="M14 24 H50" stroke="#EBAA45" stroke-width="3.2"/>
+  <rect x="8.5" y="18.5" width="11" height="11" rx="2.5" fill="#E09A2D"/>
+  <rect x="26.5" y="18.5" width="11" height="11" rx="2.5" fill="#1F2328" stroke="#EBAA45" stroke-width="2.4"/>
+  <rect x="44.5" y="18.5" width="11" height="11" rx="2.5" fill="#1F2328" stroke="#EBAA45" stroke-width="2.4"/>
+</svg>
